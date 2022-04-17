@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+header {
+    padding: 15px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav:hover {
+    background-color: darkslategray;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: xx-large;
+}
+
+h1:hover {
+    color: #333;
+}
+
+table {
+    padding: 25px;  
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    background-color: rgb(17, 124, 143);
+    color: black;
+    
+}
+
+td:hover {
+    background-color: rgb(25, 22, 184);
+    color: rgb(17, 124, 143);
+}
+
+.course {
+    border:0px;
+    background-color: transparent;
+}
+
+.course:hover {
+    background-color: transparent;
+}
+
+td a {
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+}
+
+td a:hover {
+    background-color: transparent;
+    
+    font-size: 120%;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 50vh;
+    padding: 50px;
+}
+
+.inner {
+    text-align: left;
+}
+
+li a {
+    text-decoration: none;
+}
+
+iframe {
+    height: 40vh;
+    margin: 0 auto;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+section h3 a {
+    text-decoration: none;
+    color:#333;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer:hover {
+    background-color: darkslategray;
+}
+
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer a:hover {
+    color: yellow;
+}
